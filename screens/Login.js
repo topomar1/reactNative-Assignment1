@@ -49,7 +49,8 @@ export default function Login({navigation}){
         <View style={{flexDirection:"row", alignItems:"center"}}>
             <Text style={{marginTop:10, color:"grey"}}>Not a Member? </Text>
             <TouchableOpacity 
-                onPress={()=>{navigation.navigate('Home')}}><Text style={{color:"orange",  marginTop:10, fontWeight:"bold"}}>Signup</Text></TouchableOpacity>
+                onPress={()=>{navigation.navigate('Home')}}><Text style={{color:"orange",  marginTop:10, fontWeight:"bold"}}>Signup</Text>
+            </TouchableOpacity>
         </View>
 
             
