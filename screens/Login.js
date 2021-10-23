@@ -13,10 +13,10 @@ export default function Login({navigation}){
             borderRadius:30,
             marginBottom:45,
             transform:[{rotate:"-45deg"}]}}/>
-        <Text style={{color:"grey", fontSize:25}}>
+        <Text style={{color:"#252525", fontSize:25}}>
             Welcome to
         </Text>
-        <Text style={{fontWeight:'bold', fontSize:30, marginBottom:20}}>
+        <Text style={{fontWeight:'bold',color:"#1A1A1A", fontSize:30, marginBottom:20}}>
             Power Bike Shop
         </Text>
 
@@ -47,9 +47,9 @@ export default function Login({navigation}){
         </TouchableOpacity >
 
         <View style={{flexDirection:"row", alignItems:"center"}}>
-            <Text style={{marginTop:10, color:"grey"}}>Not a Member? </Text>
+            <Text style={{marginTop:10, color:"#AEAEAE"}}>Not a Member? </Text>
             <TouchableOpacity 
-                onPress={()=>{navigation.navigate('Home')}}><Text style={{color:"orange",  marginTop:10, fontWeight:"bold"}}>Signup</Text>
+                onPress={()=>{navigation.navigate('Home')}}><Text style={{color:"#FB7121",  marginTop:10, fontWeight:"bold"}}>Signup</Text>
             </TouchableOpacity>
         </View>
 
