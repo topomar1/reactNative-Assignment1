@@ -52,7 +52,9 @@ export default function Home({navigation}){
                     </ScrollView>
 
                 </View>
-                <ScrollView vertical={true} style={{flex:1}}> 
+
+                
+                <ScrollView> 
 
                         <View style={{flexDirection:"row", justifyContent:"space-around", marginTop:20}}>
                             <View style={{backgroundColor:"#F5F5F5", height:250, width:160, borderRadius:15, alignItems:"center", justifyContent:"center"}}>
@@ -91,7 +93,7 @@ export default function Home({navigation}){
                         
 
 
-                    </ScrollView>
+                </ScrollView>
 
 
                     <View style={{position:"absolute",bottom:0,width:"100%",height:70, backgroundColor:"#F5F5F5", flexDirection:"row", alignItems:"center"}}>
