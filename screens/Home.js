@@ -103,13 +103,16 @@ export default function Home({navigation}){
 
                         </TouchableOpacity>
                         
-                        <View style={{backgroundColor:"black", padding:15, borderRadius:40, marginLeft:120, position:"absolute", left:40, top:-15}}>
+                        <View style={{backgroundColor:"black", padding:15, borderRadius:40, marginLeft:140, position:"absolute", left:40, top:-15}}>
                             <SimpleLineIcons name="microphone" size={24} color="white"/>
                         </View>
                         
-                        
-                        <SimpleLineIcons name="bag" size={25} color="black" style={{marginLeft:"auto", paddingRight:40}}/>
+                        <TouchableOpacity 
+                        style={{marginLeft:290}} onPress={()=>{navigation.navigate('Cart')}}>
+                                <SimpleLineIcons name="bag" size={25} color="black" style={{marginLeft:"auto", paddingRight:40}}/>
 
+                        </TouchableOpacity>
+                        
                     </View>
 
 
